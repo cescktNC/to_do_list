@@ -1,0 +1,10 @@
+// ¡Incluso puedes personalizar las variables de Bootstrap antes de importarlo!
+$primary: darken(#428bca, 20%);
+
+// El símbolo ~ te permite hacer referencia a elementos en node_modules.
+// Si no se quieren importar todos los estilos de bootstrap, se puede incluir el archivo específico
+@import "~bootstrap/scss/alert";
+
+// Pero si se quieren importar todos los estilo de bootrap, se tiene que incluir el archivo que 'bootstrap',
+// carga todos los archivos de bootrap
+@import "~bootstrap/scss/bootstrap";
